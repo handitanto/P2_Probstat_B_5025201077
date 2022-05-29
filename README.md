@@ -46,9 +46,9 @@ Praktikum Probabilitas dan Statistik
 
 
  #### 4. Seorang Peneliti sedang meneliti spesies dari kucing di ITS . Dalam penelitiannya ia mengumpulkan data tiga spesies kucing yaitu kucing oren, kucing hitam dan kucing putih dengan panjangnya masing-masing.Jika :
- ### diketahui dataset https://intip.in/datasetprobstat1
- ### H0 : Tidak ada perbedaan panjang antara ketiga spesies atau rata-rata panjangnya sama
- ### Maka Kerjakan atau Carilah:
+ #### diketahui dataset https://intip.in/datasetprobstat1
+ #### H0 : Tidak ada perbedaan panjang antara ketiga spesies atau rata-rata panjangnya sama
+ #### Maka Kerjakan atau Carilah:
 
  #### a. Buatlah masing masing jenis spesies menjadi 3 subjek "Grup" (grup 1,grup 2,grup 3). Lalu Gambarkan plot kuantil normal untuk setiap kelompok dan lihat apakah ada outlier utama dalam homogenitas varians.
 
