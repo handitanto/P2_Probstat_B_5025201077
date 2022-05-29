@@ -46,7 +46,8 @@ y = c(100, 95, 70, 90, 90, 90, 89, 90, 100)
  #### c. tentukanlah apakah terdapat pengaruh yang signifikan secara statistika dalam hal kadar saturasi oksigen , sebelum dan sesudah melakukan aktivitas 𝐴 jika diketahui tingkat signifikansi 𝛼 = 5% serta H0 : “tidak ada pengaruh yang signifikan secara statistika dalam hal kadar saturasi oksigen , sebelum dan sesudah melakukan aktivitas 𝐴”
  
  ```
- Tingkat signifikansi = 5%, maka dapat disimpulkan bahwa H0 ditolak dan H1 diterima, yaitu terdapat pengaruh signifikan secara statistika dalam hal kadar saturasi oksigen sebelum dans esuah melakuan aktivitas A
+ Tingkat signifikansi = 5%, maka dapat disimpulkan bahwa H0 ditolak dan H1 diterima, yaitu terdapat pengaruh signifikan secara 
+ statistika dalam hal kadar saturasi oksigen sebelum dans esuah melakuan aktivitas A
 ```
 
 #### 2. Diketahui bahwa mobil dikemudikan rata-rata lebih dari 20.000 kilometer per tahun. Untuk menguji klaim ini, 100 pemilik mobil yang dipilih secara acak diminta untuk mencatat jarak yang mereka tempuh. Jika sampel acak menunjukkan rata-rata 23.500 kilometer dan standar deviasi 3900 kilometer. 
@@ -62,7 +63,8 @@ y = c(100, 95, 70, 90, 90, 90, 89, 90, 100)
  #### a. Apakah Anda setuju dengan klaim tersebut?
  
  ```
- Setuju. Karena bila kita mengacu pada pengujian z, didapat kesimpulan bahwa H0 ditolak sehingga mobil rata-rata dikemudikan lebih >20000 km
+ Setuju. Karena bila kita mengacu pada pengujian z, didapat kesimpulan bahwa H0 ditolak sehingga mobil rata-rata dikemudikan lebih
+ >20000 km
  ```
  
  #### b. Jelaskan maksud dari output yang dihasilkan!
