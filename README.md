@@ -10,11 +10,42 @@ Praktikum Probabilitas dan Statistik
 
 #### Berdasarkan data pada tabel diatas, diketahui kadar saturasi oksigen dari responden ke-3 ketika belum melakukan aktivitas 𝐴 sebanyak 67, dan setelah melakukan aktivitas 𝐴 sebanyak 70.
 
+```
+Responden = c(1, 2, 3, 4, 5, 6, 7, 8, 9)
+x = c(78, 75, 67, 77, 70, 72, 78, 74, 77)
+y = c(100, 95, 70, 90, 90, 90, 89, 90, 100)
+```
  #### a. Carilah Standar Deviasi dari data selisih pasangan pengamatan tabel diatas!
  
+ Menggunakan `sdev` untuk mencari standar deviasi
+ ```
+ Data_Frame = data.frame(Responden, x, y)
+ sdev = sd(Data_Frame$x-Data_Frame$y)
+ sdev
+ ```
+ sehingga didapatkan hasil
+ # ![image](https://user-images.githubusercontent.com/94664744/170868073-f8baaea8-616b-4e45-8e5e-b6518fcbb453.png)
+
  #### b. Carilah nilai t (p-value)!
+ 
+ Menggunakan `pval` untuk mencari nilai t
+ ```
+ h = Data_Frame$y - Data_Frame$x
+ t_mu = mean(h)
+ t_zbar = mean(h[1:6])
+ t_n = 6
+ t_s = sd(h[1:6])
+ t = (t_zbar - t_mu) / (t_s/sqrt(t_n))
+ t
+ pval = 2 * pt(-abs(t), df = t_n - 1)
+ pval
+ ```
+ sehingga didapatkan hasil
+ # ![image](https://user-images.githubusercontent.com/94664744/170868263-ec132dfa-e18d-4bc7-9ca6-e92d90a89b25.png)
 
  #### c. tentukanlah apakah terdapat pengaruh yang signifikan secara statistika dalam hal kadar saturasi oksigen , sebelum dan sesudah melakukan aktivitas 𝐴 jika diketahui tingkat signifikansi 𝛼 = 5% serta H0 : “tidak ada pengaruh yang signifikan secara statistika dalam hal kadar saturasi oksigen , sebelum dan sesudah melakukan aktivitas 𝐴”
+ 
+ 
 
 
 #### 2. Diketahui bahwa mobil dikemudikan rata-rata lebih dari 20.000 kilometer per tahun. Untuk menguji klaim ini, 100 pemilik mobil yang dipilih secara acak diminta untuk mencatat jarak yang mereka tempuh. Jika sampel acak menunjukkan rata-rata 23.500 kilometer dan standar deviasi 3900 kilometer. 
