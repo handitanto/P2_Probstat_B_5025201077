@@ -47,7 +47,7 @@ y = c(100, 95, 70, 90, 90, 90, 89, 90, 100)
  
  ```
  Tingkat signifikansi = 5%, maka dapat disimpulkan bahwa H0 ditolak dan H1 diterima, yaitu terdapat pengaruh 
- signifikan secara statistika dalam hal kadar saturasi oksigen sebelum dans esuah melakuan aktivitas A
+ signifikan secara statistika dalam hal kadar saturasi oksigen sebelum dan sesudah melakuan aktivitas A
 ```
 
 #### 2. Diketahui bahwa mobil dikemudikan rata-rata lebih dari 20.000 kilometer per tahun. Untuk menguji klaim ini, 100 pemilik mobil yang dipilih secara acak diminta untuk mencatat jarak yang mereka tempuh. Jika sampel acak menunjukkan rata-rata 23.500 kilometer dan standar deviasi 3900 kilometer. 
