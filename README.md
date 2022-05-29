@@ -83,18 +83,46 @@ y = c(100, 95, 70, 90, 90, 90, 89, 90, 100)
 
  #### Dari data diatas berilah keputusan serta kesimpulan yang didapatkan dari hasil diatas. Asumsikan nilai variancenya sama, apakah ada perbedaan pada rata-ratanya (α= 0.05)? Buatlah :
  
- #### a. H0 dan H1
  
+ #### a. H0 dan H1
+ ```
+ H0 = (miu1 = miu2)
+ H1 = (miu1 != miu2) 
+ ```
 
  #### b. Hitung Sampel Statistik!
+ ```
+ tsum.test(mean.x=3.64, s.x = 1.67, n.x = 19, 
+          mean.y=2.79, s.y = 1.32, n.y = 27, 
+          alternative = "two.sided", mu = 0, var.equal = TRUE,
+          conf.level = 0.95)
+ ```
+ didapatkan hasil
+ # ![image](https://user-images.githubusercontent.com/94664744/170872530-187f0175-8ce4-47b3-95eb-6510e3f1915c.png)
 
  #### c. Lakukan Uji Statistik (df =2)!
+ ```
+ plotDist(dist ='t', df = 2, col="green")
+ ```
+ didapatkan grafik
+ # ![image](https://user-images.githubusercontent.com/94664744/170872589-741d356a-e2b6-48fa-9cc0-b333ce9106c8.png)
 
  #### d. Nilai Kritikal
+ ```
+ qt(p = 0.05, df = 2, lower.tail = FALSE)
+ ```
+ didapatkan hasil
+ # ![image](https://user-images.githubusercontent.com/94664744/170872682-025aa063-97ea-42f9-aca7-f8d29b92699f.png)
 
  #### e. Keputusan
-
+ ```
+ karena nilai t < a, maka hipotesis awal ditolak
+ ```
  #### f. Kesimpulan
+ ```
+ Dengan tingkat keyakinan 95%, diyakini bahwa tidak terdapat perbedaan rata-rata saham pada perusahaan di Bandung 
+ dan Bali
+ ```
 
 
  #### 4. Seorang Peneliti sedang meneliti spesies dari kucing di ITS . Dalam penelitiannya ia mengumpulkan data tiga spesies kucing yaitu kucing oren, kucing hitam dan kucing putih dengan panjangnya masing-masing.Jika :
